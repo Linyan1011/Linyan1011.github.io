@@ -1,0 +1,124 @@
+
+body {
+    background: linear-gradient(135deg, #0f172a, #a7bfe4);
+}
+
+.myself {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 60px 25px;
+    background: #1e293b;
+    color: rgb(226 232 240);
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(3,3,3,3.7);
+    transition: 0.3s;
+}
+
+.myself h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 20px;
+}
+
+.myself p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+
+}
+
+
+.myself:hover {
+    transform: translateY(-5px);
+}
+
+.profile-img {
+    width: 280px;
+    border-radius: 40px;
+    margin: 20px；
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.myself {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 60px 25px;
+    background: #1e293b;
+    color: rgb(226 232 240);
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(3,3,3,3.7);
+    transition: 0.3s;
+}
+.myself {
+    width: 800px;
+}
+
+
+.img-row {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.img {
+    width: 230px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.myself h2 {
+    margin-top: 10;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 20px;
+}
+.ME {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.ig-btn {
+    display: inline-block;
+    padding: 20px 30px;
+    background: #E1306C;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.ig-btn:hover {
+    transform: scale(1.05);
+    background: #c2185b;
+}
+
+
+.tags {
+    display: flex;
+    gap: 8px;
+
+}
+
+.tag {
+    padding: 6px 12px;
+    border: 1px solid #64748b;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
